@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      d2lang-js:
+        specifier: ^0.2.0
+        version: 0.2.0
+
+packages:
+
+  d2lang-js@0.2.0:
+    resolution: {integrity: sha512-cPkepUC/jKB5qhXFXEN9j4RZUw2mpAkXvc6+mLxgDRQSW/XrrcpdbHfBvkjrpXlPQMqOI4bmHEoKQiUhWF2Ayw==}
+
+snapshots:
+
+  d2lang-js@0.2.0: {}
