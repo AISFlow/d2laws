@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "convert": "node ./convert-d2.mjs",
+    "merge": "node ./merge-d2-files.mjs",
+    "annotate": "node ./insert-filename-comment.mjs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
     "d2lang-js": "^0.2.0"

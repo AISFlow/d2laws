@@ -20,7 +20,7 @@ const files = fs.readdirSync(inputDir).filter((f) => f.endsWith(".d2"));
 const tasks = files.map((file) => {
 	const inputPath = path.join(inputDir, file);
 	const outputPath = path.join(outputDir, file.replace(/\.d2$/, ".png"));
-	const cmd = `${D2} "${inputPath}" "${outputPath}" --layout elk`;
+	const cmd = `${D2} "${inputPath}" "${outputPath}" --layout elk --pad 20 --scale 3 --theme 5`;
 
 	return exec(cmd)
 		.then(({ stderr }) => {
